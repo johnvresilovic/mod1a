@@ -1,0 +1,164 @@
+* {
+  background-color: deepskyblue;
+  font-family: "Press Start 2P", cursive;
+}
+
+.header {
+  margin: 0;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-between;
+  height: 45vh;
+  width: 70vw;
+  margin: 0 auto;
+}
+
+.name-container {
+  display: flex;
+  justify-content: space-between;
+  height: 20vh;
+  width: 70vw;
+  margin: 0 auto;
+}
+
+.stats-container {
+  display: flex;
+  justify-content: space-between;
+  height: 20vh;
+  width: 70vw;
+  margin: 0 auto;
+}
+
+.player-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solidblack;
+  width: 10vw;
+  height: 10vh;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 5px black;
+  background-color: forestgreen;
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.message-board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solidblack;
+  width: 30vw;
+  height: 30vh;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 5px black;
+  background-color: brown;
+  color: whitesmoke;
+  font-size: 54px;
+  font-weight: bold;
+}
+
+.opponent-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solidblack;
+  width: 10vw;
+  height: 10vh;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 5px black;
+  background-color: forestgreen;
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.player-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solidblack;
+  width: 17vw;
+  height: 35vh;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 5px black;
+  background-color: forestgreen;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("./you.png");
+}
+
+.opponent-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solidblack;
+  width: 48vw;
+  height: 35vh;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 5px black;
+  background-color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("./opponents.png");
+}
+
+.player-stats {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solidblack;
+  width: 10vw;
+  height: 10vh;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 5px black;
+  background-color: forestgreen;
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.opponent-stats {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solidblack;
+  width: 10vw;
+  height: 10vh;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 5px black;
+  background-color: forestgreen;
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.game-button {
+  font-size: 36px;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: gold;
+  cursor: pointer;
+}
