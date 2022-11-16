@@ -37,7 +37,7 @@ I wanted to use modals for in-game messaging, but I was never happy with how the
 ## Miscellaneous
 To play the game, navigate to the URL below.  If you want access to the files you can fork and clone this repository to your machine.
 
-The live site for this game is https://johnvresilovic.github.io/mod1/
+The live site for this game is https://johnvresilovic.github.io/mod1a/
 
 Thanks to my Per Scholas instructors, Tishana Trainor, Kasper Kain and Chase Van Halen, as well as my classmates in Cycle 28.
 
