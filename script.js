@@ -74,7 +74,7 @@ quitButton.addEventListener("click", (e) => {
   messageBoard.innerHTML = "Thanks for playing!  Goodbye.";
   quitCounter = 1;
   attackButton.style.color = "gray";
-  attackButton.style.cursor = "default";
+  attackButton.style.cursor = "not-allowed";
 });
 
 restartButton.addEventListener("click", (e) => {
@@ -108,10 +108,10 @@ function attack(you, opponent) {
         quitCounter = 1;
         setTimeout(() => {
           messageBoard.style.fontSize = "48px";
-          messageBoard.innerHTML = "YOU WIN!!";
+          messageBoard.innerHTML = "YOU WIN";
           newOpponentHealth.innerHTML = "Health: XXX";
           attackButton.style.color = "gray";
-          attackButton.style.cursor = "default";
+          attackButton.style.cursor = "not-allowed";
         }, 2000);
       }
     } else {
@@ -149,11 +149,12 @@ function attack(you, opponent) {
         }, 2000);
         setTimeout(() => {
           messageBoard.style.fontSize = "48px";
-          messageBoard.innerHTML = "YOU WIN!!";
+          messageBoard.innerHTML = "YOU WIN";
         }, 2000);
         quitCounter = 1;
         newOpponentHealth.innerHTML = "Health: XXX";
         attackButton.style.color = "gray";
+        attackButton.style.cursor = "not-allowed";
       }
     } else {
       messageBoard.innerHTML =
@@ -179,6 +180,7 @@ function counterattack(opponent, you) {
         "Aargh!  You have been defeated.  Click Restart to play again.";
       }, 2000);
       attackButton.style.color = "gray";
+      attackButton.style.cursor = "not-allowed";
     } else {
       setTimeout(() => {
         messageBoard.innerHTML =
@@ -198,6 +200,7 @@ function counterattack(opponent, you) {
         "Aargh!  You have been defeated.  Click Restart to play again.";
       }, 2000);
       attackButton.style.color = "gray";
+      attackButton.style.cursor = "not-allowed";
     } else {
       setTimeout(() => {
         messageBoard.innerHTML =
