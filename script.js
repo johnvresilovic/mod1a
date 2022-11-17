@@ -71,7 +71,7 @@ attackButton.addEventListener("click", (e) => {
 });
 
 quitButton.addEventListener("click", (e) => {
-  messageBoard.innerHTML = "Thanks for playing!  Goodbye.";
+  messageBoard.innerHTML = "Thanks for playing!";
   quitCounter = 1;
   attackButton.style.color = "gray";
   attackButton.style.cursor = "not-allowed";
