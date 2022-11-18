@@ -40,7 +40,7 @@ class Hero {
   }
 }
 
-const playerOne = new Hero(100, randomNumber(40, 90));
+const playerOne = new Hero(100, randomNumber(10, 90));
 
 class Opponent {
   constructor(health, power) {
